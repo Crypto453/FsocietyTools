@@ -201,7 +201,7 @@ elif user_a == 4:
     time.sleep(1)
     print("https://www.torproject.org/download/")
 elif user_a == 00:
-    os.system("python3 FsocietyTools.py")
+    quit()
 else: 
     print("ERROR!!!!")
     os.system("python3 FsocietyTools.py")
